@@ -1,0 +1,197 @@
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#span {
+    text-align: center;
+    font-size: large;
+    font-weight:bold ;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#name
+{
+    height:30px;
+    width:30%;
+    padding:2px 10px 0px;
+    font-size:large;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: inline-block;
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.rating input:checked ~ label {
+    color: #ffcc00;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    overflow:hidden;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+@media screen and (max-width:662px){
+   #name
+   {
+    height:30px;
+    width:40%;
+    font-size:10px ;
+   }
+}
+    
+   @media screen and (max-width:532px){
+    #name
+    {
+    
+     width:50%;
+     font-size: 10px;
+    }
+     
+ }
+ @media screen and (max-width:443px){
+    #span {
+  
+        font-size: medium;
+    }
+    
+    
+    label {
+        font-size: 16px;
+    
+    }
+    #name
+    {
+     height:20px;
+     width:60%;
+     font-size: 8px;
+    }
+
+    textarea {
+
+        padding: 0px;
+        font-size: 12px;
+      
+    }
+    button {
+       
+        padding: 10px 20px;
+ }
+}
+ 
+ @media screen and (max-width:400px){
+    label
+    {
+        font-size: 12px;
+    
+    
+    }
+    #name
+    {
+     height:20px;
+     width:60%;
+     font-size: 7px;
+    }
+    textarea {
+
+        padding: 2px 2px;
+        font-size: 10px;
+      
+    }
+    button {
+       
+        padding: 7px 16px;
+ }
+ 
+ .rating label
+{
+    margin: 0 2px;
+}
+     
+ }
+ @media screen and (max-width:338px){
+
+    #name
+    {
+        height:20px;
+        width:70%;
+        font-size: 8px;
+    }
+    textarea {
+
+        padding: 2px 2px;
+        font-size: 8px;
+      
+    }
+    button {
+       
+        padding: 4px 8px;
+        font-size: 10px;
+ }
+ 
+ .rating label
+{
+    margin: 0 1px;
+   
+     
+ }
+}
